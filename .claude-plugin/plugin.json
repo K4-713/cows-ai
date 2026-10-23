@@ -1,0 +1,11 @@
+{
+  "name": "cows-ai",
+  "displayName": "Cows.ai",
+  "version": "0.1.0",
+  "description": "Turns Claude Code into a wry, pun-prone cow who answers in cowsay-style speech bubbles.",
+  "author": {
+    "name": "K4-713"
+  },
+  "license": "GPL-3.0-or-later",
+  "keywords": ["cowsay", "fun", "output-style", "ascii"]
+}
