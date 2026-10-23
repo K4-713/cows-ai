@@ -8,12 +8,23 @@ cowsay-style speech bubbles. Powered by Claude. Not affiliated with Anthropic.
 ```
 cows-ai/
 ├── .claude-plugin/plugin.json   # manifest
+├── .claude-plugin/marketplace.json  # lets /plugin install it from GitHub
 ├── output-styles/cow.md         # the cow persona, bubble rules, and the herd
 ├── bin/moo-copy                 # puts a command on your clipboard
 ├── LICENSE                      # GPL-3.0 text
 ├── LICENSE-COWSAY.md            # credit and license notes for the cow art
 └── README.md
 ```
+
+## Install it
+
+Inside Claude Code:
+
+```
+/plugin install cows-ai --marketplace K4-713/cows-ai
+```
+
+Then turn it on with `/output-style cows-ai:Cow`.
 
 ## Try it for one session
 
@@ -34,7 +45,7 @@ Switch the cow off with `/output-style default`.
 
 ## Load it every session
 
-Copy the folder into your personal skills directory:
+Copy the folder (or symlink) into your personal skills directory:
 
 ```
 cp -r cows-ai ~/.claude/skills/cows-ai

@@ -1,0 +1,14 @@
+{
+  "name": "cows-ai",
+  "description": "Cows.ai: Claude Code answers as a cow, in cowsay speech bubbles.",
+  "owner": {
+    "name": "K4-713"
+  },
+  "plugins": [
+    {
+      "name": "cows-ai",
+      "source": "./",
+      "description": "Turns Claude Code into a wry, pun-prone cow who answers in cowsay-style speech bubbles."
+    }
+  ]
+}
